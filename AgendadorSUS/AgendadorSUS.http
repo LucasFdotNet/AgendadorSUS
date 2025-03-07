@@ -1,0 +1,6 @@
+@AgendadorSUS_HostAddress = http://localhost:5141
+
+GET {{AgendadorSUS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

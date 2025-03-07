@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lucas Florindo\\source\\estudos\\AgendadorSUS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7DB7F7-6337-4379-B6E4-82CAC929B1DD}|AgendadorSUS\\AgendadorSUS.csproj|c:\\users\\lucas florindo\\source\\estudos\\agendadorsus\\agendadorsus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7DB7F7-6337-4379-B6E4-82CAC929B1DD}|AgendadorSUS\\AgendadorSUS.csproj|solutionrelative:agendadorsus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7DB7F7-6337-4379-B6E4-82CAC929B1DD}|AgendadorSUS\\AgendadorSUS.csproj|c:\\users\\lucas florindo\\source\\estudos\\agendadorsus\\agendadorsus\\controller\\consultascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7DB7F7-6337-4379-B6E4-82CAC929B1DD}|AgendadorSUS\\AgendadorSUS.csproj|solutionrelative:agendadorsus\\controller\\consultascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7DB7F7-6337-4379-B6E4-82CAC929B1DD}|AgendadorSUS\\AgendadorSUS.csproj|c:\\users\\lucas florindo\\source\\estudos\\agendadorsus\\agendadorsus\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7DB7F7-6337-4379-B6E4-82CAC929B1DD}|AgendadorSUS\\AgendadorSUS.csproj|solutionrelative:agendadorsus\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7DB7F7-6337-4379-B6E4-82CAC929B1DD}|AgendadorSUS\\AgendadorSUS.csproj|c:\\users\\lucas florindo\\source\\estudos\\agendadorsus\\agendadorsus\\models\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7DB7F7-6337-4379-B6E4-82CAC929B1DD}|AgendadorSUS\\AgendadorSUS.csproj|solutionrelative:agendadorsus\\models\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7DB7F7-6337-4379-B6E4-82CAC929B1DD}|AgendadorSUS\\AgendadorSUS.csproj|c:\\users\\lucas florindo\\source\\estudos\\agendadorsus\\agendadorsus\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7DB7F7-6337-4379-B6E4-82CAC929B1DD}|AgendadorSUS\\AgendadorSUS.csproj|solutionrelative:agendadorsus\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7DB7F7-6337-4379-B6E4-82CAC929B1DD}|AgendadorSUS\\AgendadorSUS.csproj|c:\\users\\lucas florindo\\source\\estudos\\agendadorsus\\agendadorsus\\models\\lembrete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7DB7F7-6337-4379-B6E4-82CAC929B1DD}|AgendadorSUS\\AgendadorSUS.csproj|solutionrelative:agendadorsus\\models\\lembrete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsultasController.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Florindo\\source\\estudos\\AgendadorSUS\\AgendadorSUS\\Controller\\ConsultasController.cs",
+              "RelativeDocumentMoniker": "AgendadorSUS\\Controller\\ConsultasController.cs",
+              "ToolTip": "C:\\Users\\Lucas Florindo\\source\\estudos\\AgendadorSUS\\AgendadorSUS\\Controller\\ConsultasController.cs",
+              "RelativeToolTip": "AgendadorSUS\\Controller\\ConsultasController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T14:28:31.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Florindo\\source\\estudos\\AgendadorSUS\\AgendadorSUS\\Controller\\AuthController.cs",
+              "RelativeDocumentMoniker": "AgendadorSUS\\Controller\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Lucas Florindo\\source\\estudos\\AgendadorSUS\\AgendadorSUS\\Controller\\AuthController.cs",
+              "RelativeToolTip": "AgendadorSUS\\Controller\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T14:27:29.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Consulta.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Florindo\\source\\estudos\\AgendadorSUS\\AgendadorSUS\\Models\\Consulta.cs",
+              "RelativeDocumentMoniker": "AgendadorSUS\\Models\\Consulta.cs",
+              "ToolTip": "C:\\Users\\Lucas Florindo\\source\\estudos\\AgendadorSUS\\AgendadorSUS\\Models\\Consulta.cs",
+              "RelativeToolTip": "AgendadorSUS\\Models\\Consulta.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T14:25:02.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Lembrete.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Florindo\\source\\estudos\\AgendadorSUS\\AgendadorSUS\\Models\\Lembrete.cs",
+              "RelativeDocumentMoniker": "AgendadorSUS\\Models\\Lembrete.cs",
+              "ToolTip": "C:\\Users\\Lucas Florindo\\source\\estudos\\AgendadorSUS\\AgendadorSUS\\Models\\Lembrete.cs",
+              "RelativeToolTip": "AgendadorSUS\\Models\\Lembrete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T14:24:06.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Florindo\\source\\estudos\\AgendadorSUS\\AgendadorSUS\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AgendadorSUS\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Lucas Florindo\\source\\estudos\\AgendadorSUS\\AgendadorSUS\\AppDbContext.cs",
+              "RelativeToolTip": "AgendadorSUS\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T14:14:25.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas Florindo\\source\\estudos\\AgendadorSUS\\AgendadorSUS\\Program.cs",
+              "RelativeDocumentMoniker": "AgendadorSUS\\Program.cs",
+              "ToolTip": "C:\\Users\\Lucas Florindo\\source\\estudos\\AgendadorSUS\\AgendadorSUS\\Program.cs",
+              "RelativeToolTip": "AgendadorSUS\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T13:24:34.45Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

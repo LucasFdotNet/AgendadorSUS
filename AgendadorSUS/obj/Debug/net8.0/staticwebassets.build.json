@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "j4z1KHxXHHQgptYlSXM1s52x+jQYhzfYWGMJqzuEyJo=",
+  "Source": "AgendadorSUS",
+  "BasePath": "_content/AgendadorSUS",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
