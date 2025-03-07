@@ -1,10 +1,10 @@
-﻿using System;
-
-namespace AgendadorSUS.Models
+﻿namespace AgendadorSUS.Models
 {
     public class Usuario
     {
-        public int ID { get; set; }
+        // Certifique-se de que a classe tenha a propriedade 'Id' como chave primária
+        public int Id { get; set; }  // Isso será usado para identificar o usuário
+
         public string Nome { get; set; }
         public string CPF { get; set; }
         public DateTime DataNascimento { get; set; }

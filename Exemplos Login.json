@@ -1,0 +1,17 @@
+--Login Pacientes exemplo:
+{
+  "email": "joao.silva@example.com",
+  "senha": "senha123"
+}
+
+
+{
+  "email": "maria.oliveira@example.com",
+  "senha": "senha456"
+}
+
+
+{
+  "email": "pedro.santos@example.com",
+  "senha": "senha789"
+}

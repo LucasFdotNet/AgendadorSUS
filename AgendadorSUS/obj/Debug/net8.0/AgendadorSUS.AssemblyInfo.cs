@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgendadorSUS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2667c94fd600af0c62115cd85f8c36bfe9837311")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgendadorSUS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgendadorSUS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

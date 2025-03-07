@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "usuario",
-        "Type": "AgendadorSUS.Models.Usuario",
+        "Name": "loginRequest",
+        "Type": "AgendadorSUS.Models.LoginRequest",
         "IsRequired": true
       }
     ],
@@ -82,6 +82,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgendadorSUS.Controllers.ConsultasController",
+    "Method": "ConsultasDeUsuario",
+    "RelativePath": "api/consultas/todas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

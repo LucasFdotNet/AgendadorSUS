@@ -1,7 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using AgendadorSUS;  // Importando o namespace onde o AppDbContext está
-using AgendadorSUS.Models;  // Se os modelos como Usuario estiverem na pasta Models
+using AgendadorSUS.Models;
 using System.Linq;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+using Microsoft.Extensions.Configuration; // Para ler do appsettings.json
+using System;
 
 namespace AgendadorSUS.Controllers
 {
@@ -10,24 +15,29 @@ namespace AgendadorSUS.Controllers
     public class AuthController : ControllerBase
     {
         private readonly AppDbContext _context;
+        private readonly IConfiguration _configuration;
 
-        public AuthController(AppDbContext context)
+        public AuthController(AppDbContext context, IConfiguration configuration)
         {
             _context = context;
+            _configuration = configuration;  // Injeção de dependência para acessar o appsettings.json
         }
 
         // Método para login
         [HttpPost("login")]
-        public IActionResult Login([FromBody] Usuario usuario)
+        public IActionResult Login([FromBody] LoginRequest loginRequest)
         {
-            if (usuario == null || string.IsNullOrEmpty(usuario.Email) || string.IsNullOrEmpty(usuario.Senha))
+            if (loginRequest == null || string.IsNullOrEmpty(loginRequest.Email) || string.IsNullOrEmpty(loginRequest.Senha))
                 return BadRequest("Email e senha são obrigatórios.");
 
-            var user = _context.Usuarios.FirstOrDefault(u => u.Email == usuario.Email);
-            if (user == null || user.Senha != usuario.Senha) // Idealmente, use hash de senha aqui
+            var user = _context.Usuarios.FirstOrDefault(u => u.Email == loginRequest.Email);
+            if (user == null || user.Senha != loginRequest.Senha)  // Verificando a senha diretamente
                 return Unauthorized("Usuário ou senha inválidos.");
 
-            return Ok("Login bem-sucedido.");
+            // Gerar o token JWT
+            var token = GenerateJwtToken(user);
+
+            return Ok(new { Token = token });
         }
 
         // Método para registrar um novo usuário
@@ -43,6 +53,33 @@ namespace AgendadorSUS.Controllers
             _context.Usuarios.Add(usuario);
             _context.SaveChanges();
             return Ok("Usuário cadastrado com sucesso.");
+        }
+
+        // Método para gerar o JWT
+        private string GenerateJwtToken(Usuario user)
+        {
+            var claims = new[] {
+                new Claim(ClaimTypes.Name, user.Email),
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                new Claim(ClaimTypes.Role, "User"),
+                new Claim(JwtRegisteredClaimNames.Iss, _configuration["Jwt:Issuer"]),
+                new Claim(JwtRegisteredClaimNames.Aud, _configuration["Jwt:Audience"]),
+                new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString())  // Definido como DateTime.UtcNow
+            };
+
+            // Garantir que a chave secreta tem 32 caracteres (256 bits)
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:SecretKey"]));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken(
+                issuer: _configuration["Jwt:Issuer"],  // Obtendo do appsettings.json
+                audience: _configuration["Jwt:Audience"],  // Obtendo do appsettings.json
+                claims: claims,
+                expires: DateTime.UtcNow.AddHours(1),
+                signingCredentials: creds
+            );
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
 }
