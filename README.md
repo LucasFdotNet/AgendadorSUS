@@ -13,7 +13,7 @@ Lucas Rodrigues Furini - Desenvolvimento Backend.
 
 Links de servidores do projeto:
 
-Backend:  
-Banco de Dados:  
+Backend: https://railway.com/invite/Jwgd4GX8Nsj
+Banco de Dados:  https://railway.com/invite/Jwgd4GX8Nsj
 Frontend:  
 Landing Page:
