@@ -16,4 +16,4 @@ Links de servidores do projeto:
 Backend: https://railway.com/invite/Jwgd4GX8Nsj  
 Banco de Dados: https://railway.com/invite/Jwgd4GX8Nsj  
 Frontend:  
-Landing Page:
+Landing Page: https://gabriel-pink.github.io/pi-landingpage/
