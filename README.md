@@ -16,4 +16,6 @@ Quinto semestre TADS e TSI - Segunda Etapa
 - **Backend:** [Railway](https://railway.com/invite/Jwgd4GX8Nsj)  
 - **Banco de Dados:** [Railway](https://railway.com/invite/Jwgd4GX8Nsj)  
 - **Frontend:** [GitHub](https://github.com/Gabriel-Pink/PI-Senac)  
-- **Landing Page:** [GitHub Pages](https://gabriel-pink.github.io/pi-landingpage/)  
+- **Landing Page:** [GitHub Pages](https://gabriel-pink.github.io/pi-landingpage/)
+- **Vídeo Apresentação:** [Google Drive](https://drive.google.com/file/d/1rBkh3Zs5MfZK8zFDe0lgUgQR9nrlQfda/view?usp=drivesdk)
+
